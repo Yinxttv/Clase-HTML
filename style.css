@@ -2,6 +2,7 @@
 
 html {
     font-family: Montserrat;
+    color: #1F1F1F;
 }
 
 /*^Text modifications*/
@@ -9,50 +10,45 @@ html {
 p {
     font-size: 16px;
     font-weight: 400;
+}
+
+a {
+    text-decoration: none;
     color: #1F1F1F;
 }
 
 .header-title {
     font-size: 20px;
     font-weight: 400;
-    color: #1F1F1F;
 }
 
 .header-subtitle {
     font-size: 48px;
     font-weight: 700;
-    color: #1F1F1F;
 }
 
 .hire-anchor{
     font-size: 16px;
     font-weight: 700;
-    font-style: normal;
-    text-decoration: none;
 }
 
 .portfolio-anchor{
-    color: #1F1F1F;
     font-size: 16px;
     font-weight: 700;
-    font-style: normal;
-    text-decoration: none;
 }
 
 .about-title{
     font-size: 36px;
     font-weight: 700;
-    font-style: normal;
 }
 
 .about-nums-text{
     font-size: 18px;
     font-weight: 700;
-    font-style: normal;
 }
 
 .about-nums-number{
-   color: #FFD4D0;
+    color: #FFD4D0;
     font-size: 64px;
     font-weight: 700;
 }
@@ -71,5 +67,9 @@ p {
 }
 
 .header {
+    background-color: #FFD4D0;
+}
+
+.top-bar{
     background-color: #FFD4D0;
 }
