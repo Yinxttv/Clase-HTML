@@ -1,75 +1,60 @@
-/*^Typography*/
+/*^Document*/
 
 html {
     font-family: Montserrat;
-    color: #1F1F1F;
+    color: hsl(0, 0, 12%);
+    font-size: 100%;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
 }
 
 /*^Text modifications*/
 
-p {
-    font-size: 16px;
-    font-weight: 400;
+h1 {
+
 }
 
 a {
-    text-decoration: none;
-    color: #1F1F1F;
-}
-
-.header-title {
-    font-size: 20px;
-    font-weight: 400;
-}
-
-.header-subtitle {
-    font-size: 48px;
-    font-weight: 700;
-}
-
-.hire-anchor{
-    font-size: 16px;
-    font-weight: 700;
-}
-
-.portfolio-anchor{
-    font-size: 16px;
-    font-weight: 700;
-}
-
-.about-title{
-    font-size: 36px;
-    font-weight: 700;
-}
-
-.about-nums-text{
-    font-size: 18px;
-    font-weight: 700;
-}
-
-.about-nums-number{
-    color: #FFD4D0;
-    font-size: 64px;
-    font-weight: 700;
-}
-
-.about-text{
-}
-
-/*Colors*/
-
-.color-text-white{
-    color: white;
-}
-
-.color-text-red{
     color: #FC3314;
 }
 
-.header {
-    background-color: #FFD4D0;
+a:visited {
+    color: hsl(0, 0, 12%);
 }
 
-.top-bar{
-    background-color: #FFD4D0;
+ul {
+    list-style-type: none;
 }
+
+/*TOPBAR*/
+
+.main-nav {
+    display: flex;
+    background-color: oldlace;
+    align-items: center;
+    padding: 12px;
+    margin-bottom: 12px;
+}
+
+    .main-nav__item {
+        color: hsl(0, 0, 12%);
+        text-decoration: none;
+        font-weight: ;
+    }
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+}
+
+    .topbar--
