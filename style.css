@@ -1,4 +1,4 @@
-/*^Document*/
+/* || GENERAL STYLES */
 
 html {
     font-family: Montserrat;
@@ -16,39 +16,5 @@ img {
     max-width: 100%;
 }
 
-/*^Text modifications*/
+/* || MODIFIERS */
 
-a {
-    color: #FC3314;
-}
-
-a:visited {
-    color: hsl(0, 0, 12%);
-}
-
-ul {
-    list-style-type: none;
-}
-
-/*TOPBAR*/
-
-.main-nav {
-    display: flex;
-    background-color: oldlace;
-    align-items: center;
-    padding: 12px;
-    margin-bottom: 12px;
-}
-
-    .main-nav__item {
-        color: hsl(0, 0, 12%);
-        text-decoration: none;
-        font-weight: 400;
-    }
-
-.topbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 8px 12px;
-}

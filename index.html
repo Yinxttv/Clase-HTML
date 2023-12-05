@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,209 +9,127 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    
     <div class="topbar">
-        <div class="logo">
+        <div class="topbar__logo">
             <img src="./contents/Logo.svg" alt="Logotype">
         </div>
-            <nav class="main-nav">
+            <nav class="topbar__nav">
                 <a href="#" alt="Enlace About">About</a>
                 <a href="#" alt="Enlace Services">Services</a>
                 <a href="#" alt="Enlace Portfolio">Portfolio</a>
                 <a href="#" alt="Enlace Blog">Blog</a>
             </nav>
-        <div class="topbar-ctabtn">
+        <div class="btn">
             <a alt="Enlace a formulario" href="#">Let's Talk</a>
         </div>
     </div>
-
     <header class="header">
-        <h1 class="header-title">UX Designer</h1>
-        <h2 class="text-big">Hi There, I'm <span class="text-red">Sarah Jones</span></h2>
-        <p class="header-text">Welcome to my portfolio of captivating digital experiences. Explore my work and let's create something extraordinary together.</p>
-        <a href="" class="cta-btn">Hire Me</a>
-        <a href="" class="cta-btn--white">Portfolio</a>
+        <h1 class="header__title">UX Designer</h1>
+        <h2 class="header__subtitle">Hi There, I'm <span class="header__span">Sarah Jones</span></h2>
+        <p class="header__text">Welcome to my portfolio of captivating digital experiences. Explore my work and let's create something extraordinary together.</p>
+        <a href="" class="btn">Hire Me</a>
+        <a href="#" class="btn btn--white">Portfolio</a>
         <img src="./contents/Sarah Jones.jpg" alt="My" class="header--img" Picture="">
     </header>
-
     <main class="main">
-        <section class="section-main"> <!-- Revisable el nombre del bloque -->
-
-            <h2 class="section-title--white">About me</h2>
-            
-            <p class="section-text--white">I'm Sara Jones, a UI/UX designer dedicated to crafting intuitive and visually stunning digital experiences. With a passion for user-centric design, I transform ideas into functional and beautiful interfaces. Let's collaborate and shape the future of design together.</p>
-
-            <dl class="section-list--white"> <!-- Revisable el nombre del bloque -->
-                <dt class="list-title">Projects Done</dt>
-                <dd class="list-number">502</dd>
-                <dt class="list-title">Years of Experience</dt>
-                <dd class="list-number">10+</dd>
-                <dt class="list-title">Clients Served</dt>
-                <dd class="list-number">273+</dd>
+        <section class="sct-home--black">
+            <h2 class="sct-home__title--white">About me</h2>
+            <p class="sct-home__text--white">I'm Sara Jones, a UI/UX designer dedicated to crafting intuitive and visually stunning digital experiences. With a passion for user-centric design, I transform ideas into functional and beautiful interfaces. Let's collaborate and shape the future of design together.</p>
+            <dl class="list"> 
+                <dt class="list__title--white">Projects Done</dt>  <!-- Revisable el nombre del dt y dd -->
+                <dd class="list__number">502</dd>
+                <dt class="list__title--white">Years of Experience</dt>
+                <dd class="list__number">10+</dd>
+                <dt class="list__title--white">Clients Served</dt>
+                <dd class="list__number">273+</dd>
             </dl>
-
         </section>
-
-        <section class="myservices">
-
-            <h2 class="myservices-title">Services</h2>
-
-            <p class="myservices-text">Explore my design services, from user interface and experience to prototyping and testing. Let's craft exceptional digital experiences together.</p>
-
-            <ul class="services-list">
-
-                <li class="services-item">
-
-                    <img src="./contents/design-icon.svg" alt="Desing Icon" class="design-icon">
-
-                    <h3 class="services-title">Design</h3>
-
-                    <p class="services-text">I specialize in web development and design, creating visually appealing, user-friendly digital experiences.</p>
-
+        <section class="sct-home">
+            <h2 class="sct-home__title">Services</h2>
+            <p class="sct-home__text">Explore my design services, from user interface and experience to prototyping and testing. Let's craft exceptional digital experiences together.</p>
+            <ul class="list">  <!-- Revisable el nombre del ul y el de los li -->
+                <li class="list__inner">
+                    <img class="list__img" src="./contents/design-icon.svg" alt="Desing Icon">
+                    <h3 class="list__title">Design</h3>
+                    <p class="list__text">I specialize in web development and design, creating visually appealing, user-friendly digital experiences.</p>
                 </li>
-
-                <li class="services-item">
-
-                    <img src="./contents/branding-icon.svg" alt="Branding Icon" class="branding-icon"> 
-
-                    <h3 class="services-title">Branding</h3>
-
-                    <p class="services-text">I'm a branding expert, crafting unique visual identities that tell your story and resonate with your audience.</p>
-
+                <li class="list__inner">
+                    <img class="list__img" src="./contents/branding-icon.svg" alt="Branding Icon"> 
+                    <h3 class="list__title">Branding</h3>
+                    <p class="list__text">I'm a branding expert, crafting unique visual identities that tell your story and resonate with your audience.</p>
                 </li>
-
-                <li class="services-item">
-
-                    <img src="./contents/research-icon.svg" alt="Research Icon" class="research-icon"> 
-                    
-                    <h3 class="services-title">UX Research</h3>
-
-                    <p class="services-text">I specialize in user experience research, collaborating on web development, and ensuring user-friendly digital products.</p>
-
+                <li class="list__inner">
+                    <img class="list__img" src="./contents/research-icon.svg" alt="Research Icon"> 
+                    <h3 class="list__title">UX Research</h3>
+                    <p class="list__text">I specialize in user experience research, collaborating on web development, and ensuring user-friendly digital products.</p>
                 </li>
-
-                <li class="services-item">
-
-                    <img src="./contents/usability-icon.svg" alt="Usability Icon" class="usability-icon"> 
-                    
-                    <h3 class="services-title">Usability Testing</h3>
-
-                    <p class="services-text">I perform usability testing and optimize designs websites based on real-user feedback for seamless interactions.</p>
-
+                <li class="list__inner">
+                    <img class="list__img" src="./contents/usability-icon.svg" alt="Usability Icon"> 
+                    <h3 class="list__title">Usability Testing</h3>
+                    <p class="list__text">I perform usability testing and optimize designs websites based on real-user feedback for seamless interactions.</p>
                 </li>
-
             </ul>
-
         </section>
-
-        <section class="myportfolio">
-
-            <h3 class="myportfolio-title">My Portfolio</h3>
-
-            <p class="myportfolio-text">Explore my design services, from user interface and experience to prototyping and testing. Let's craft exceptional digital experiences together.</p>
-
-            <div class="portfolio-row">
-                <ul class="portfolio-list">
-
-                    <li class="portfolio-item">
-    
-                        <img src="./contents/Educational Platform.jpg" alt="Educational Platform Design" class="portfolio-img">
-    
-                        <h3 class="portfolio-title">Educational Platform</h3>
-    
-                        <p class="portfolio-text">Web Design / Usability Testing</p>
-    
+        <section class="sct-home">
+            <h3 class="sct-home__title">My Portfolio</h3>
+            <p class="sct-home__text">Explore my design services, from user interface and experience to prototyping and testing. Let's craft exceptional digital experiences together.</p>
+            <div class="sct-home__row">
+                <ul class="list">
+                    <li class="list_inner">
+                        <img class="list__img" src="./contents/Educational Platform.jpg" alt="Educational Platform Design">
+                        <h3 class="list__title">Educational Platform</h3>
+                        <p class="list__text">Web Design / Usability Testing</p>
                         <a href="#">
                             <img src="./contents/anchor-icon.svg" alt="Link Icon" class="anchor-icon">
                         </a>
-    
                     </li>
-
-                    <li class="portfolio-item">
-    
-                        <img src="./contents/Travel App Design.jpg" alt="Travel App Design" class="portfolio-img">
-    
-                        <h3 class="portfolio-title">Travel App Design</h3>
-    
-                        <p class="design-text">UX Research / App Design</p>
-    
+                    <li class="list_inner">
+                        <img class="list__img" src="./contents/Travel App Design.jpg" alt="Travel App Design">
+                        <h3 class="list__title">Travel App Design</h3>
+                        <p class="list__text">UX Research / App Design</p>
+                        <a class="#">
+                            <img src="./contents/anchor-icon.svg" alt="Link Icon" class="anchor-icon">
+                        </a>
+                    </li>
+                    <li class="list_inner">
+                        <img class="list__img" src="./contents/Personal Page.jpg" alt="Travel App Design">
+                        <h3 class="list__title">Personal Page</h3>
+                        <p class="list__text">Web Design</p>
                         <a href="#">
                             <img src="./contents/anchor-icon.svg" alt="Link Icon" class="anchor-icon">
                         </a>
-    
                     </li>
-
-                    <li class="portfolio-item">
-    
-                        <img src="./contents/Personal Page.jpg" alt="Travel App Design" class="portfolio-img">
-    
-                        <h3 class="portfolio-title">Personal Page</h3>
-    
-                        <p class="design-text">Web Design</p>
-    
-                        <a href="#">
-                            <img src="./contents/anchor-icon.svg" alt="Link Icon" class="anchor-icon">
-                        </a>
-    
-                    </li>
-    
                 </ul>
-
             </div>
-
-
-
-            <div class="portfolio-row">
-                <ul class="portfolio-list">
-
-                    <li class="portfolio-item">
-    
-                        <img src="./contents/Furniture Mobile App.jpg" alt="Forniture Mobile App Design" class="portfolio-img">
-    
-                        <h4 class="portfolio-title">Furniture Mobile App</h4>
-    
-                        <p class="design-text">App Design</p>
-    
+            <div class="sct-home__row">
+                <ul class="list">
+                    <li class="list_inner">
+                        <img class="list__img" src="./contents/Furniture Mobile App.jpg" alt="Forniture Mobile App Design">
+                        <h4 class="list__title">Furniture Mobile App</h4>
+                        <p class="list__text">App Design</p>
                         <a href="#">
                             <img src="./contents/anchor-icon.svg" alt="Link Icon" class="anchor-icon">
                         </a>
-    
                     </li>
-
-                    <li class="portfolio-item">
-    
-                        <img src="./contents/Coffe House Landing Page.jpg" alt="Coffe House Landing Page Design" class="portfolio-img">
-    
-                        <h4 class="portfolio-title">Coffe House Landing Page</h4>
-    
-                        <p class="portfolio-text">UX Research / Web Design</p>
-    
+                    <li class="list_inner">
+                        <img class="list__img" src="./contents/Coffe House Landing Page.jpg" alt="Coffe House Landing Page Design">
+                        <h4 class="list__title">Coffe House Landing Page</h4>
+                        <p class="list__text">UX Research / Web Design</p>
                         <a href="#">
                             <img src="./contents/anchor-icon.svg" alt="Link Icon" class="anchor-icon">
                         </a>
-    
                     </li>
-
-                    <li class="portfolio-item">
-    
-                        <img src="./contents/Home Services PAge.jpg" alt="Home Services Page Design" class="portfolio-img">
-    
-                        <h4 class="portfolio-title">Home Services Page</h4>
-    
-                        <p class="portfolio-text">Web Design / Marketing</p>
-    
+                    <li class="list_inner">
+                        <img class="list__img" src="./contents/Home Services PAge.jpg" alt="Home Services Page Design">
+                        <h4 class="list__title">Home Services Page</h4>
+                        <p class="list__text">Web Design / Marketing</p>
                         <a href="#">
                             <img src="./contents/anchor-icon.svg" alt="Link Icon" class="anchor-icon">
                         </a>
-    
                     </li>
-    
                 </ul>
-                
             </div>
-            
         </section>
 
         <section class="skills">
