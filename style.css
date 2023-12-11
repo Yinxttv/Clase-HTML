@@ -3,30 +3,73 @@
 *------------------------------------*/
 
 html {
-    font-family: Montserrat;
-    color: hsl(0, 0, 12%);
-    font-size: 100%;
-    line-height: 1.5;
-    font-weight: 400;
-    margin: 0;
+  font-family: Montserrat;
+  color: hsl(0, 0, 12%);
+  font-size: 100%;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0;
 }
 
 body {
-    margin: 0;
+  margin: 0;
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
+h1 {
+  font-family: Montserrat;
+  font-size: 48x;
+  text-align: start;
+  color: #171717;
+}
+
+h2 {
+  font-family: Montserrat;
+  font-size: 36x;
+  text-align: start;
+  color: #171717;
+}
+
+h3 {
+  font-family: Montserrat;
+  font-size: 24px;
+  text-align: start;
+  color: #171717;
+}
+
+p {
+  font-family: Montserrat;
+  font-size: 16px;
+  text-align: start;
+  color: #171717;
+}
+
+a {
+  text-decoration: none;
+}
 /*------------------------------------\
-    $BLOCKS
+    $HEADER
 *------------------------------------*/
 
+.topbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2em 5em 1.5em 5em;
+}
+
+.header-main {
+  background-color: #FFD4D0;
+  padding-top: 150px;
+  margin-top: -150px;
+}
 
 /*------------------------------------\
     $ELEMENTS
